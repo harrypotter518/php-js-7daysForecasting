@@ -1,0 +1,113 @@
+body
+{
+	background-image: url('7daybg.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	color: white;
+	overflow-x: hidden;
+}
+
+h1{
+	text-align: center;
+	font-size: 4vh;
+	padding-top: 1vh;
+}
+
+h3{
+	text-align: center;
+	font-size: 3vh;
+}
+
+.high_temp
+{
+	padding-top: 3vh;
+	padding-bottom: 2vh;
+}
+.low_temp
+{
+	background-color: black;
+	margin-left: 7vw;
+	width:	6vw;
+	height: 5vh;
+	border: 2px solid #996600;
+}
+
+#day7 .low_temp
+{
+	display: none;
+}
+
+
+
+.day_title
+{
+	text-align: center ; 
+	background-color:gray; 
+	opacity:0.7; 
+	width:100%;
+	height:8vh; 
+	border-style: solid; 
+	border-width: 5px;
+	border-color: wheat;  
+	border-radius: 15px;"
+}
+
+.gradient
+{
+	background: linear-gradient(to right,lightblue, darkblue);
+	height: 8px;
+}
+.date
+{
+	background-color:black;
+	opacity:0.7;
+	 width:100%;
+	 height:8vh;
+}
+
+.weather_content
+{
+	background-color:gray;
+	opacity:0.7;
+	width:100%;
+	height:50vh;
+	padding: 10px;
+	border: 1px solid #996600;
+
+}
+
+.day_info{
+	padding: 10px; 
+	width:14%; 
+}
+
+#day1{
+	z-index: -1;
+}
+
+#day2{
+	z-index: -2;
+}
+
+#day3{
+	z-index: -3;
+}
+
+#day4{
+	z-index: -4;
+}
+
+#day5{
+	z-index: -5;
+}
+
+#day6{
+	z-index: -6;
+}
+
+#day7{
+	z-index: -7;
+}
+
+
